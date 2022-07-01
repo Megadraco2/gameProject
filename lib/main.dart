@@ -33,6 +33,7 @@ class MyHomePage extends StatelessWidget {
             keyboardConfig: KeyboardConfig(
                 keyboardDirectionalType: KeyboardDirectionalType.wasd)),
         player: GameHero(Vector2(20 * 32, 11 * 32)),
-        map: (TiledWorldMap('map/island.tmj', forceTileSize: Size(32, 32))));
+        map: (TiledWorldMap('map/island.tmj', forceTileSize: Size(32, 32))),
+        showCollisionArea: false);
   }
 }

@@ -3,10 +3,26 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "forestDecoration_0.tsj",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "forestDecoration_0.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "forest_.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "island.tmj": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 295.3333333333333,
+                "y": 337.33333333333326
+            }
+        }
     },
     "frame.defaultDuration": 200,
     "last.imagePath": "E:/Desktop/Emmanuel/projetos/gametest/assets/images/map",
@@ -16,9 +32,15 @@
     "map.tileWidth": 16,
     "map.width": 40,
     "openFiles": [
+        "island.tmj",
+        "forest_.tsj",
+        "forestDecoration_0.tsj"
     ],
     "project": "island.tiled-project",
     "recentFiles": [
+        "island.tmj",
+        "forest_.tsj",
+        "forestDecoration_0.tsj"
     ],
     "tileset.lastUsedFormat": "json",
     "tileset.tileSize": {
