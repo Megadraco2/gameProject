@@ -1,0 +1,14 @@
+{ "columns":63,
+ "image":"Game Boy Advance - The Legend of Zelda The Minish Cap - South Hyrule Field.png",
+ "imageheight":848,
+ "imagewidth":1011,
+ "margin":0,
+ "name":"Game Boy Advance - The Legend of Zelda The Minish Cap - South Hyrule Field",
+ "spacing":0,
+ "tilecount":3339,
+ "tiledversion":"1.9.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.8"
+}

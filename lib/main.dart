@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:gametest/hero.dart';
 
+const double tilesize = 16;
 void main() {
   runApp(const MyApp());
 }
@@ -29,11 +30,13 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BonfireTiledWidget(
+        cameraConfig: CameraConfig(moveOnlyMapArea: true, zoom: 2),
         joystick: Joystick(
             keyboardConfig: KeyboardConfig(
                 keyboardDirectionalType: KeyboardDirectionalType.wasd)),
-        player: GameHero(Vector2(20 * 32, 11 * 32)),
-        map: (TiledWorldMap('map/island.tmj', forceTileSize: Size(32, 32))),
-        showCollisionArea: false);
+        player: GameHero(Vector2(20 * tilesize, 11 * tilesize)),
+        map: (TiledWorldMap('map/island.tmj',
+            forceTileSize: Size(tilesize, tilesize))),
+        showCollisionArea: true);
   }
 }

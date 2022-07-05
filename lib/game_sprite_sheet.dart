@@ -1,6 +1,6 @@
 import 'package:bonfire/bonfire.dart';
 
-class GameSpriteSheet {
+class PlayerSpriteSheet {
   static Future<SpriteAnimation> get heroIdleUp => SpriteAnimation.load(
       'link_minish.png',
       SpriteAnimationData.sequenced(

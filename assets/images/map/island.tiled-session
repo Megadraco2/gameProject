@@ -17,10 +17,10 @@
         },
         "island.tmj": {
             "scale": 1.5,
-            "selectedLayer": 1,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 295.3333333333333,
-                "y": 337.33333333333326
+                "x": 288,
+                "y": 329.66666666666663
             }
         }
     },
@@ -37,6 +37,7 @@
         "forestDecoration_0.tsj"
     ],
     "project": "island.tiled-project",
+    "property.type": "object",
     "recentFiles": [
         "island.tmj",
         "forest_.tsj",

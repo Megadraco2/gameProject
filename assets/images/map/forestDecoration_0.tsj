@@ -11,7 +11,13 @@
  "tiles":[
         {
          "class":"above",
-         "id":34
+         "id":34,
+         "properties":[
+                {
+                 "name":"above",
+                 "type":"object",
+                 "value":0
+                }]
         }, 
         {
          "class":"above",
@@ -27,25 +33,14 @@
              "objects":[
                     {
                      "class":"",
-                     "height":11.95757656105,
-                     "id":2,
+                     "height":10.9375,
+                     "id":4,
                      "name":"",
                      "rotation":0,
                      "visible":true,
-                     "width":9.95757656104998,
-                     "x":3.04242343895002,
-                     "y":0.0848468779000396
-                    }, 
-                    {
-                     "class":"",
-                     "height":10.648283176455,
-                     "id":3,
-                     "name":"",
-                     "rotation":0,
-                     "visible":true,
-                     "width":9.7998143974546,
-                     "x":3.13933448230147,
-                     "y":0.2121171947501
+                     "width":10,
+                     "x":3,
+                     "y":0
                     }],
              "opacity":1,
              "type":"objectgroup",
@@ -70,8 +65,8 @@
                      "rotation":0,
                      "visible":true,
                      "width":11.9209863449556,
-                     "x":2.03632506960095,
-                     "y":0.0424234389500198
+                     "x":2.09882506960095,
+                     "y":-0.0200765610499802
                     }],
              "opacity":1,
              "type":"objectgroup",
@@ -81,11 +76,14 @@
             }
         }, 
         {
+         "class":"above",
+         "id":59
+        }, 
+        {
          "id":70,
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -111,7 +109,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -166,7 +163,7 @@
                      "visible":true,
                      "width":11.8361394670555,
                      "x":2.07874850855097,
-                     "y":0.0424234389500189
+                     "y":0.229923438950019
                     }],
              "opacity":1,
              "type":"objectgroup",
