@@ -54,6 +54,94 @@
          "y":0
         }, 
         {
+         "draworder":"topdown",
+         "id":8,
+         "name":"enemies",
+         "objects":[
+                {
+                 "class":"",
+                 "height":16,
+                 "id":1,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":426.666666666667,
+                 "y":440
+                }, 
+                {
+                 "class":"",
+                 "height":16,
+                 "id":2,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":207.333333333333,
+                 "y":432.666666666667
+                }, 
+                {
+                 "class":"",
+                 "height":16,
+                 "id":3,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":352,
+                 "y":368.666666666667
+                }, 
+                {
+                 "class":"",
+                 "height":16,
+                 "id":4,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":433.333333333333,
+                 "y":304
+                }, 
+                {
+                 "class":"",
+                 "height":16,
+                 "id":5,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":192,
+                 "y":336
+                }, 
+                {
+                 "class":"",
+                 "height":16,
+                 "id":6,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":447.333333333333,
+                 "y":240.666666666667
+                }, 
+                {
+                 "class":"",
+                 "height":16,
+                 "id":7,
+                 "name":"Orc",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":399.333333333333,
+                 "y":224.666666666667
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -104,8 +192,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":8,
- "nextobjectid":1,
+ "nextlayerid":9,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.0",

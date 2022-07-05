@@ -64,4 +64,24 @@ class PlayerSpriteSheet {
           stepTime: 0.15,
           textureSize: Vector2(120, 130),
           texturePosition: Vector2(0, 520)));
+
+  static Future<SpriteAnimation> get attackLeft => SpriteAnimation.load(
+      'atack_effect_left.png',
+      SpriteAnimationData.sequenced(
+        amount: 3,
+        stepTime: 0.15,
+        textureSize: Vector2(16, 16),
+      ));
+  static Future<SpriteAnimation> get attackRight => SpriteAnimation.load(
+      'atack_effect_right.png',
+      SpriteAnimationData.sequenced(
+          amount: 3, stepTime: 0.15, textureSize: Vector2(16, 16)));
+  static Future<SpriteAnimation> get attackBottom => SpriteAnimation.load(
+      'atack_effect_bottom.png',
+      SpriteAnimationData.sequenced(
+          amount: 3, stepTime: 0.15, textureSize: Vector2(16, 16)));
+  static Future<SpriteAnimation> get attackTop => SpriteAnimation.load(
+      'atack_effect_top.png',
+      SpriteAnimationData.sequenced(
+          amount: 3, stepTime: 0.15, textureSize: Vector2(16, 16)));
 }

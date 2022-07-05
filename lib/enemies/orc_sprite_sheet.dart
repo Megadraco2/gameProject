@@ -41,7 +41,7 @@ class OrcSpriteSheet {
         ),
       );
 
-  static Future<SpriteAnimation> get recieveDamageRight => SpriteAnimation.load(
+  static Future<SpriteAnimation> get receiveDamageRight => SpriteAnimation.load(
         'orc_.png',
         SpriteAnimationData.sequenced(
           amount: 4,
@@ -51,7 +51,7 @@ class OrcSpriteSheet {
         ),
       );
 
-  static Future<SpriteAnimation> get recieveDamageLeft => SpriteAnimation.load(
+  static Future<SpriteAnimation> get receiveDamageLeft => SpriteAnimation.load(
         'orc_.png',
         SpriteAnimationData.sequenced(
           amount: 4,
