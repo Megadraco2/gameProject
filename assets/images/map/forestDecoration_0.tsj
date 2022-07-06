@@ -12,11 +12,38 @@
         {
          "class":"above",
          "id":34,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "class":"",
+                     "height":9,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "visible":true,
+                     "width":10,
+                     "x":3,
+                     "y":7
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
          "properties":[
                 {
-                 "name":"above",
-                 "type":"object",
-                 "value":0
+                 "name":"t",
+                 "propertytype":"above",
+                 "type":"class",
+                 "value":
+                    {
+
+                    }
                 }]
         }, 
         {
@@ -28,7 +55,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -54,7 +80,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -151,7 +176,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {

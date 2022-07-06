@@ -6,5 +6,38 @@
     "folders": [
     ],
     "propertyTypes": [
+        {
+            "color": "#ffa0a0a4",
+            "id": 1,
+            "members": [
+                {
+                    "name": "above",
+                    "type": "string",
+                    "value": "above"
+                }
+            ],
+            "name": "above",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Enum0",
+            "storageType": "string",
+            "type": "enum",
+            "values": [
+                "above"
+            ],
+            "valuesAsFlags": false
+        }
     ]
 }

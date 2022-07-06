@@ -6,21 +6,49 @@
     "activeFile": "forestDecoration_0.tsj",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "C:/Users/emman/Desktop/Novo(a) Documento de Texto.json": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 283.6666666666667,
+                "y": 247
+            }
+        },
+        "C:/Users/emman/Desktop/forestDecoration_0.json": {
+            "scaleInDock": 1
+        },
+        "C:/Users/emman/Desktop/forest_.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "C:/Users/emman/Desktop/teste/map.json": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 121.75,
+                "y": 83
+            }
+        },
+        "C:/Users/emman/Desktop/teste/tileSet.json": {
+            "scaleInDock": 1
+        },
         "forestDecoration_0.tsj": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
         "forest_.tsj": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
         "island.tmj": {
-            "scale": 1.5,
-            "selectedLayer": 0,
+            "scale": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 288,
-                "y": 329.66666666666663
+                "x": 342,
+                "y": 236.5
             }
         }
     },
@@ -41,7 +69,9 @@
     "recentFiles": [
         "island.tmj",
         "forest_.tsj",
-        "forestDecoration_0.tsj"
+        "forestDecoration_0.tsj",
+        "C:/Users/emman/Desktop/teste/map.json",
+        "C:/Users/emman/Desktop/Novo(a) Documento de Texto.json"
     ],
     "tileset.lastUsedFormat": "json",
     "tileset.tileSize": {

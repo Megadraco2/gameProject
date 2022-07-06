@@ -50,11 +50,17 @@ class Orc extends SimpleEnemy with ObjectCollision {
   @override
   void die() {
     if (lastDirectionHorizontal == Direction.left) {
-      animation?.playOnce(OrcSpriteSheet.dieLeft, runToTheEnd: true);
+      animation?.playOnce(OrcSpriteSheet.dieLeft, runToTheEnd: true,
+          onFinish: () {
+        removeFromParent();
+      });
     } else {
-      animation?.playOnce(OrcSpriteSheet.dieRight, runToTheEnd: true);
+      animation?.playOnce(OrcSpriteSheet.dieRight, runToTheEnd: true,
+          onFinish: () {
+        removeFromParent();
+      });
     }
-    removeFromParent();
+
     super.die();
   }
 

@@ -3,6 +3,7 @@ import 'package:bonfire/bonfire.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+import 'package:gametest/decoration/lamp.dart';
 import 'package:gametest/enemies/orc.dart';
 import 'package:gametest/hero.dart';
 import 'package:get/get.dart';
@@ -33,15 +34,18 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BonfireTiledWidget(
-        cameraConfig: CameraConfig(moveOnlyMapArea: true, zoom: 2),
+        lightingColorGame: Colors.black.withOpacity(0.8),
+        cameraConfig: CameraConfig(
+            moveOnlyMapArea: true,
+            zoom: 2,
+            smoothCameraEnabled: true,
+            sizeMovementWindow: Vector2(tilesize * 2, tilesize * 2)),
         joystick: (GetPlatform.isDesktop)
             ? Joystick(
                 keyboardConfig: KeyboardConfig(
                   keyboardDirectionalType: KeyboardDirectionalType.wasd,
                 ),
-                actions: [
-                    JoystickAction(actionId: 1, margin: EdgeInsets.all(70))
-                  ])
+              )
             : Joystick(directional: JoystickDirectional(), actions: [
                 JoystickAction(actionId: 1, margin: EdgeInsets.all(70))
               ]),
@@ -49,6 +53,7 @@ class MyHomePage extends StatelessWidget {
         map: (TiledWorldMap('map/island.tmj',
             objectsBuilder: {
               'Orc': ((properties) => Orc(properties.position)),
+              'Lamp': ((properties) => Lamp(properties.position)),
             },
             forceTileSize: Size(tilesize, tilesize))),
         showCollisionArea: false);
